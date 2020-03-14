@@ -71,7 +71,7 @@ main .main__welcome h1{
 }
 .mycompanny{
     color: #fcac45;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .wrapper{
@@ -120,12 +120,12 @@ main .main__about{
 .main__team{
     background: #000000;
     text-align: center;
-    padding: 100px 0 165px 0;
+    padding: 100px 0 30px 0;
     color: white;
 }
 .main__team h1{
     font-size: 44px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .line {
     width: 6.6%;
@@ -133,7 +133,7 @@ main .main__about{
     background: #fcac45;
     position: relative;
     left: 46.6%;
-    margin-bottom: 85px;
+    margin-bottom: 60px;
     justify-content: center;
     
 }
@@ -146,4 +146,57 @@ main .main__about{
 }
 .team__cards{
     display: flex;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    color: #444444;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.position {
+    font-size: 16px;
+    font-weight: normal;
+}
+.about__position {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 20px 15px 0 15px;
+    text-align: center;
+}
+
+.main__services h1{
+    text-align: center;
+    font-size: 44px;
+    padding: 100px 0 20px 0;
+}
+.main__services p{
+    color: #6c6c6c;
+    font-size: 16px;
+    
+    text-align: center;
+}
+.services__card h4{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.services__card p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #222222;
+    width: 250px;
+}
+.services__cards{
+    text-align: center;
+    display: grid;
+    padding: 100px;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
 }
