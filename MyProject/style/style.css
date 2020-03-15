@@ -224,6 +224,29 @@ main .main__about{
     margin-top: 50px;
     margin-left: 33px;
 }
+.main__work{
+   text-align: center ;
+   padding: 100px 0 100px 0;
+}
+.main__work h1{
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.main__work span{
+    font-weight: 600;
+}
+.main__work p{
+    margin-bottom: 175px;
+    color: #6c6c6c;
+}
+.gallery img{
+    margin-right: 20px;
+    padding: 0 0 30px 10px;
+}
+.line__3 img{
+    margin-bottom: 60px;
+}
 
 
 
