@@ -164,7 +164,7 @@ main .main__about{
 .about__position {
     font-weight: normal;
     font-size: 14px;
-    padding: 20px 15px 70px 15px;
+    padding: 20px 15px 100px 15px;
     text-align: center;
 }
 
@@ -193,6 +193,8 @@ main .main__about{
     font-weight: lighter;
     color: #222222;
     width: 250px;
+    padding-left: 20px;
+    padding-bottom: 60px;
 }
 .services__cards{
     text-align: center;
@@ -201,26 +203,21 @@ main .main__about{
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 20px;
 }
-
 .main__clients{
-    background: black;
     margin-top: 150px;
-    padding: 100px 0 55px 0;
+    background: #000000;
+    color: #ffffff;
+    padding: 100px 0 200px 0;
     text-align: center;
-    color: white;
-    max-height: 450px;
-
+    max-height: 320px;
 }
 .main__clients h1{
-    font-size: 44px;
     padding-bottom: 20px;
-    font-weight: bold;
 }
-.main__clients span{
-    font-size: 44px;
-    font-weight: 300;
-    color: #999999;
+.our__clients img{
+    margin-top: 50px;
+    margin-left: 33px;
 }
-.main__clients img{
-    padding: 55px 140px 55px 140px;
-}
+
+
+
