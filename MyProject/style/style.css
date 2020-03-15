@@ -213,6 +213,12 @@ main .main__about{
 }
 .main__clients h1{
     padding-bottom: 20px;
+    font-size: 44px;
+    font-weight: 600;
+}
+.main__clients span{
+    color: #999999;
+    font-weight: 300;
 }
 .our__clients img{
     margin-top: 50px;
