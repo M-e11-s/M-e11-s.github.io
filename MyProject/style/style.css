@@ -248,5 +248,39 @@ main .main__about{
     margin-bottom: 60px;
 }
 
+.main__testimonials{
+    margin-top: 580px;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0 175px 0;
+    background: #000000;
+    max-height: 380px;
+}
+
+.main__testimonials h1{
+    font-weight: 300;
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+.main__testimonials span{
+    font-weight: 600;
+}
+.what p{
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 935px;
+    padding: 80px 150px 55px 150px;
+}
+.who{
+    font-size: 18px;
+    font-weight: 300;
+    color: #6c6c6c;
+    
+}
+.who span{
+    font-weight: 600;
+    color: #8c8c8c;
+}
+
 
 
