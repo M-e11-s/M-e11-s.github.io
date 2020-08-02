@@ -117,7 +117,7 @@ body {
 }
 
 .work__photo {
-    position: absolute;
+    
     top: 0;
     left: 0;
     z-index: 2;
